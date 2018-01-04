@@ -1,0 +1,6 @@
+framework module HYIosBase {
+  umbrella header "HYIosBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
