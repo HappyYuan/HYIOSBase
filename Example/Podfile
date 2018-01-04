@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'HYIosBase_Example' do
+  pod 'HYIosBase', :path => '../'
+
+  target 'HYIosBase_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end
